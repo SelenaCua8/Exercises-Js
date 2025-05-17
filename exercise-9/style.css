@@ -54,3 +54,9 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background: #048;
 }
+.green{
+    color: #9c9;
+}
+.red{
+    color: #c99;
+}
