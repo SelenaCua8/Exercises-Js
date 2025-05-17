@@ -1,0 +1,56 @@
+body {
+    color: #333;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+}
+
+form {
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    background: #000;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    display: block;
+    width: 90%;
+    padding: 9px;
+    margin: 12px auto;
+    box-sizing: border-box;
+    border: none;
+    border-top: 2px solid #48e;
+    background: transparent;
+    color: #fff;
+    outline: none !important;
+    transition: background 0.3s;
+}
+
+input::placeholder {
+    color: rgb(8, 92, 219);
+    transition: color 0.3s;
+}
+
+input:hover {
+    background: #26a;
+}
+
+input[type="submit"] {
+    width: 60%;
+    padding: 12px;
+    background: #26a;
+    color: #fff;
+    margin: 20px auto 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+    background: #048;
+}
